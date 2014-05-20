@@ -27,7 +27,9 @@
 				<header class="panel-heading text-center">
 					<strong>Sign in</strong>
 				</header>
-				<strong><%- error %></strong>
+				<% if (typeof error != 'undefined') { %>
+					<strong><% error %></strong>
+				<% } %>
 				<form method="post" action="login" class="panel-body wrapper-lg">
 					<div class="form-group">
 						<label class="control-label">Username / Email</label> 

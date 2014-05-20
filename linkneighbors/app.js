@@ -33,10 +33,7 @@ app.get('/', routes.index);
 app.get('/index', routes.index);
 app.get('/signin', routes.signin);
 app.get('/about', routes.about);
-
 app.get('/group', routes.group);
-//app.post('/group', routes.group);
-
 app.get('/signup', routes.signup);
 app.get('/contact', routes.contact);
 app.get('/blog', routes.blog);

@@ -3,7 +3,7 @@
  */
 
 export.index = function(request, response) {
-	response.send('index', title: 'Index');
+	response.send('index', title: 'Link Neighbors');
 };
 	
 export.login = function(request, response) {

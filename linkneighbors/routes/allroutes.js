@@ -2,31 +2,31 @@
  * Define all the routes being used in the project here
  */
 
-export.index = function(request, response) {
-	response.send('index', title: 'Link Neighbors');
+exports.index = function(request, response) {
+	response.render('index');
 };
 	
-export.login = function(request, response) {
-	response.send('signin', title: 'Login');
+exports.signin = function(request, response) {
+	response.render('signin');
 };
 
-export.signup = function(request, response) {
-	response.send('signup', title: 'Create Account');
+exports.signup = function(request, response) {
+	response.render('signup');
 };
 
-export.group = function(request, response) {
-	response.send('signin', title: 'Login');
+exports.group = function(request, response) {
+	response.render('group');
 };
 
-export.about = function(request, response) {
-	response.send('about', title: 'About');
+exports.about = function(request, response) {
+	response.render('about');
 };
 
-export.blog = function(request, response) {
-	response.send('blog', title: 'Blog');
+exports.blog = function(request, response) {
+	response.render('blog');
 };
 
-export.contact = function(request, response) {
-	response.send('contact', title: 'Contact');
+exports.contact = function(request, response) {
+	response.render('contact');
 };
 
